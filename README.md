@@ -27,6 +27,7 @@ Python 2.7.6
 sudo apt-get install build-essential python-dev python-setuptools python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 ```
 2.安装pip工具
+pip 是一个安装和管理 Python 包的工具，Linux下安装pip工具后，可以用pip来安装其他python包
 ```bash
 sudo apt-get install python-pip
 ```
@@ -36,6 +37,10 @@ sudo apt-get install python-pip
 1.输入命令如下
 ```bash
 sudo apt-get install python-sklearn
+```
+或者使用pip安装
+```bash
+pip install -U scikit-learn
 ```
 2.验证scikit-learn是否安装成功
 ```bash
