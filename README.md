@@ -26,3 +26,24 @@ Python 2.7.6
 ```bash
 sudo apt-get install build-essential python-dev python-setuptools python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 ```
+2.安装pip工具
+```bash
+sudo apt-get install python-pip
+```
+
+## 安装scikit-learn
+
+1.输入命令如下
+```bash
+sudo apt-get install python-sklearn
+```
+2.验证scikit-learn是否安装成功
+```bash
+pip list
+```
+查看list中是否有你所安装的包
+
+3.安装其他依赖包
+```bash
+sudo pip install networkx ggplot virtualenv
+```
