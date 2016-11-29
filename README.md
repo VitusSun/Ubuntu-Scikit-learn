@@ -20,3 +20,9 @@ Ubuntu 14.04输出
 ```bash
 Python 2.7.6
 ```
+## 安装scikit-learn依赖包
+
+1.输入命令如下
+```bash
+sudo apt-get install build-essential python-dev python-setuptools python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+```
