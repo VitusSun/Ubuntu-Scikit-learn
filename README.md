@@ -27,6 +27,7 @@ Python 2.7.6
 sudo apt-get install build-essential python-dev python-setuptools python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 ```
 2.安装pip工具
+
 pip 是一个安装和管理 Python 包的工具，Linux下安装pip工具后，可以用pip来安装其他python包
 ```bash
 sudo apt-get install python-pip
@@ -46,8 +47,7 @@ pip install -U scikit-learn
 ```bash
 pip list
 ```
-查看list中是否有你所安装的包
-
+查看list中是否有你所安装的包，存在，则安装成功
 3.安装其他依赖包
 ```bash
 sudo pip install networkx ggplot virtualenv
