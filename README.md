@@ -48,6 +48,7 @@ pip install -U scikit-learn
 pip list
 ```
 查看list中是否有你所安装的包，存在，则安装成功
+
 3.安装其他依赖包
 ```bash
 sudo pip install networkx ggplot virtualenv
